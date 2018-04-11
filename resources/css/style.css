@@ -1,0 +1,53 @@
+
+/*General properties*/
+
+html {
+	font-size: 18px;
+}
+
+/*Header Section*/
+
+.header {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	background-color: black;
+
+}
+
+.header img {
+	height: 1.5rem;
+	margin-left: 10%;
+	margin-right: 1rem;
+	
+}
+
+.header h3 {
+	
+	font-family: Helvetica;
+	font-size: 1rem;
+	font-weight: 600;
+	color: white;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+/*Banner Section*/
+
+.banner {
+	height: 25rem;
+	background-image: url(../images/moto.jpeg);
+	background-size: cover;
+	background-position: 0% 45%;
+	background-repeat: no-repeat;
+}
+
+.textbox {
+	position: relative;
+	top: 9rem;
+	left: 10%;
+	height: 9rem;
+	width: 20rem;
+	background-color: black;
+
+}
